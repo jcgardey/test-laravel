@@ -1,0 +1,60 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.container {
+    width: 40%;
+    margin: 3em auto;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+div.form-group {
+    margin: 1em 0; 
+}
+
+input, textarea {
+    width: 100%;
+}
+
+input {
+    height: 3em;
+}
+
+textarea {
+    height: 5em;
+}
+
+li {
+    margin: 1em 0;
+}
+
+li a {
+    margin: 0 0.4em;
+}
+
+li span, p {
+    font-size: 16px;
+}
+
+a {
+    color: blue !important;
+}
+
+.section {
+    margin: 3em 0;
+}
+
+button {
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+}
